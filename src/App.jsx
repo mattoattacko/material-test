@@ -6,7 +6,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import SaveIcon from '@material-ui/icons/Save';
 import useStyles from './styles';
 
-const cards = [1,2,3,4,5,6,7,8,9];
+const cards = [1,2,3,4,5,6];
 
 const App = () => {
   const classes = useStyles();
@@ -28,24 +28,23 @@ const App = () => {
               Photo Album
             </Typography>
             <Typography variant='h5' align='center' color='textSecondary' paragraph>
-              Look at all those chickens
-              🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢🦢
+              Look at all these media cards. This will probably say something relevant eventually. Maybe. 
             </Typography>
             <div className={classes.button}> 
               <Grid container spacing={2} justify='center'>
                 <Grid item>
                   <Button variant='contained' color='primary' startIcon={<CloudUploadIcon />}>
-                    Upload Butts
+                    Upload
                   </Button>
                 </Grid>
                 <Grid item>
                   <Button variant='contained' color='secondary' startIcon={<DeleteIcon />}>
-                    No Mo Butts
+                    Delete
                   </Button>
                 </Grid>
                 <Grid item>
                   <Button variant='contained' color='default' startIcon={<SaveIcon />}>
-                    Save A Butt
+                    Save
                   </Button>
                 </Grid>
               </Grid>
@@ -83,10 +82,10 @@ const App = () => {
       </main>
       <footer className={classes.footer}>
         <Typography variant='h6' align='center' gutterBottom>
-          Footer
+          Petrolnaut
         </Typography>
         <Typography variant='subtitle1' align='center' color='textSecondary'>
-          Something to give our footer purpose
+          If you are reading this, I bet you're nice
         </Typography>
       </footer>
     </>
